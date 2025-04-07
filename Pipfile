@@ -12,6 +12,7 @@ python-dotenv = "*"
 gunicorn = "*"
 whitenoise = "*"
 djangorestframework-simplejwt = "*"
+requests = "*"
 
 [dev-packages]
 
