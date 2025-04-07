@@ -19,6 +19,7 @@ python-dotenv==1.1.0
 requests==2.32.3
 six==1.17.0
 sqlparse==0.5.3
+rest_framework_simplejwt==0.0.2
 typing_extensions==4.13.1
 urllib3==2.3.0
 whitenoise==6.9.0
