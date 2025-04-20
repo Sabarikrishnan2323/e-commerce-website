@@ -1,0 +1,94 @@
+.register-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    margin: auto;
+}
+
+.register-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.register-title {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.register-subtitle {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.register-form .form-label {
+    font-weight: 500;
+    color: #333;
+}
+
+.register-form input,
+.register-form textarea {
+    width: 100%;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.register-form input:focus,
+.register-form textarea:focus {
+    border-color: #6050DC;
+}
+
+.btn-register {
+    width: 100%;
+    background-color: #6050DC;
+    border: none;
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.btn-register:hover {
+    background-color: #4b3bcb;
+}
+
+.register-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register-footer a {
+    color: #6050DC;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.register-footer a:hover {
+    text-decoration: underline;
+}
+
+.success {
+    color: green;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+    text-align: center;
+}
