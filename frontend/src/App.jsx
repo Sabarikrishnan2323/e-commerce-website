@@ -13,6 +13,7 @@ import ProtectedRoute from './components/ui/ProtectedRoute'
 import { AuthProvider } from './context/AuthContext'
 import UserProfilePage from './components/user/UserProfilePage'
 import PaymentStatusPage from './components/payment/PaymentStatusPage'
+import RegisterPage from './components/user/RegisterPage'
 
 const App = () => {
   const [numcartitems,setNumbercartitems] =useState(0);
@@ -40,6 +41,7 @@ const App = () => {
       <Route  path='cart' element={<CartPage setNumbercartitems={setNumbercartitems}/>}/>
       <Route path='checkout' element={<ProtectedRoute ><CheckoutPage /></ProtectedRoute>} />
       <Route path='login' element={<LoginPage />} />
+      <Route path='register' element={<RegisterPage />} />
       <Route path='profile' element={<UserProfilePage />} />
       <Route path='*' element={<NotFoundPage />} />
       <Route path='payment-status' element={<PaymentStatusPage  setNumbercartitems={setNumbercartitems}/>} />
