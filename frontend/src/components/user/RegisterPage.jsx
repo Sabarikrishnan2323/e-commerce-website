@@ -32,7 +32,7 @@ const RegisterPage = () => {
     setSuccess('');
 
     try {
-      const response = await axios.post('http://127.0.0.1:8000/register/', formData);
+      const response = await axios.post('register/', formData);
       setSuccess('Registration successful!');
       setFormData({
         username: '',
